@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rover</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="form-div">
+			<form action="http://localhost:8080/cgi-bin/rover.cgi" method="GET">
+			<input type="hidden" name="x" value=0>
+			<input type="hidden" name="y" value=0>
+			<input type="hidden" name="s" value=0>
+			<p class="fuel-label">Fuel<input class="fuel-input" type="number" step="1" name="f" value=50></p>
+			<input class="start-button" type="submit" value="start"></button>
+		</form>
+		</div>
+	</body>
+</html>

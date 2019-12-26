@@ -1,0 +1,74 @@
+.form-div{
+	height: 100%;
+	width: 200px;
+	margin: 0 auto;
+	position: flex;
+	align-content: center;
+}
+.start-button{
+	margin-top: 50%;
+	width: 200px;
+	height: 100px;
+	font-size: 36pt;
+	background-color: rgb(139,69,19);
+	border-radius: 15px;
+	border-color: black;
+}
+
+.start-button:hover{
+	color: white;
+	border-color: white;
+	transition-duration: 0.2s;
+}
+body{
+	background-color: black;
+}
+.next-button{
+	color: black;
+	width: 100px;
+	height: 50px;
+	font-size: 18pt;
+	background-color: rgb(139,69,19);
+	border-radius: 8px;
+	border-color: black;
+}
+
+.next-button:hover{
+	color: white;
+	border-color: white;
+	transition-duration: 0.2s;
+}
+
+.next-button:focus{
+	color: white;
+	border-color: green;
+	transition-duration: 0.2s;
+}
+
+.grid-div{
+	position: flex;
+	border-color: white;
+}
+.grid-div:hover{
+	color: white;
+	transition-duration: 2s;
+}
+.stats-div{
+	background-color: rgb(139,69,19);
+	height: 50px;
+	width: 100px;
+}
+.fuel-label{
+	color:	white;
+	font-size:	50pt;
+}
+.fuel-input{
+	height: 48pt;
+	width: 72pt;
+	font-size: 44pt;
+	color: white;
+	background-color: black;
+	border-color: rgb(139,69,19);
+	border-radius:	12pt;
+	text-align: center;
+}
